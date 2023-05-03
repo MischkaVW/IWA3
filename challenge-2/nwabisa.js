@@ -1,9 +1,9 @@
-// nwabisa.js
+// nwabisa
 
-const firstname3 = "Nwabisa"
-const surname3 = "Gabe"
-const role3 = "CEO"
+const firstname = "Nwabisa"
+const surname = "Gabe"
+const nwabisa_role = "CEO"
 
-
-const display= firstname3 + " " + surname3 + " (" + role3 + ")"
+console.log(nwabisa_role)
+const display= firstname + " " + surname + " (" + nwabisa_role + ")"
 document.querySelector('#nwabisa').innerText = display

@@ -1,9 +1,9 @@
 // johannes.js
 
-const  firstname2 = "Johannes"
-const  surname2 = "Potgieter"
-const  role2 = "Intern"
+const firstname = "Johannes"
+const surname = "Potgieter"
+const johannes_role = "Intern"
 
-
-const display= firstname2 + " " + surname2 + " (" + role2 + ")"
+console.log(johannes_role)
+const display= firstname + " " + surname + " (" + johannes_role + ")"
 document.querySelector('#johannes').innerText = display

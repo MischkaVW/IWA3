@@ -1,9 +1,9 @@
 // alex.js
 
-const  firstname1 = "Alex"
-const  surname1 = "Naidoo"
-const role1 = "Head of Marketing"
+const firstname = "Alex"
+const surname = "Naidoo"
+const alex_role = "Head of Marketing"
 
-export const role = () => console.log(role1)
-const display= firstname1 + " " + surname1 + " (" + role1+ ")"
+console.log(alex_role)
+const display= firstname + " " + surname + " (" + alex_role + ")"
 document.querySelector('#alex').innerText = display
